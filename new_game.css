@@ -1,0 +1,234 @@
+body{
+    background-color: #a5c2b9;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: linear-gradient(#0f0f0f,#918383,#918383,#918383,#0f0f0f);
+    height: 130px;
+    margin: 0;
+    padding: 0;
+}
+
+.title_img{
+    float: left;
+    width: 100px;
+    margin: 15px;
+}
+
+.title_name{
+    margin: 0;
+    padding: 0;
+    padding-top: 40px;
+    padding-left: 40px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.menubar{
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    padding: 0;  
+    background: linear-gradient(#e30909,#bd0808,#800404,#590303);
+    overflow: hidden;
+}
+
+.menubar li{
+    float: left;
+    left: 0;
+    list-style-type: none;
+}
+
+.menubar li {
+    display: block;
+    color: white;
+    margin-top: 15px;
+    padding: 3px 30px;
+    font-size: 22px;
+    font-family: sans-serif;
+    border-right: 1px solid grey;
+}
+
+.menubar li:hover{
+    padding: 3px 50px;
+    font-size: 26px;
+    color: black;
+    cursor: pointer;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+margin-left: -49px;
+margin-top: 12px;
+padding: 0px 2px;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.drpdwn_cont {
+min-width: 235px;
+}
+
+.dropdown-content span {
+color: black;
+padding: 12px 16px;
+font-size: 20px;
+display: block;
+}
+
+.dropdown-content span:hover {background-color: #ddd;}
+
+#level:hover .dropdown-content {display: block;}
+#multi:hover .dropdown-content {display: block;}
+
+#level:hover .dropbtn {background-color: #3e8e41;}
+#multi:hover .dropbtn {background-color: #3e8e41;}
+
+.top_div {
+    margin-top: 70px;
+}
+
+.circle{
+    position: relative;
+    top: 150px;
+    left: 596px;
+    width: 210px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    z-index: 99;
+}
+
+.center_text{
+    position: relative;
+    top: 45px;
+    left: -244px;
+    color: white;
+    z-index: 100;
+}
+
+.button{
+    height: 150px;
+    width: 200px;
+    margin-top: 0%;
+    background-color: #e0cad2;
+    border: 10px solid #a5c2b9;
+    overflow: hidden;
+    outline: none;
+}
+
+.inner i {
+    width: 200px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: #a5c2b9;
+}
+.inner .top {
+    margin-top: -150px;
+}
+.inner .bottom {
+    margin-top: 0px;
+    margin-bottom: -150px;
+}
+.inner .left {
+    float: left;
+    margin-left: -100px;
+}
+.inner .right {
+    float: right;
+    margin-right: -100px;
+}
+
+.game{
+    float: left;
+    margin-left: 37%;
+}
+
+.red{
+    background: linear-gradient(#eb052b,#e6052a,#bd0422,#8c0319,#690213);
+    border-radius: 0px 110px 0px 0px;
+}
+
+.green{
+    background: linear-gradient(#0af05e,#06cf4f,#05a840,#038231,#025921);
+    border-radius: 110px 0px 0px 0px;
+}
+
+.blue{
+    background: linear-gradient(#07ace3,#0699c9,#057ca3,#055d7a,#033445);
+    border-radius: 0px 0px 110px 0px;
+}
+
+.yellow{
+    background: linear-gradient(#f2df07,#cfbf08,#baab09,#998d06,#6e6504);
+    border-radius: 0px 0px 0px 110px;
+}
+
+.tostart_text{
+    position: relative;
+    margin-left: 30%;
+    top: 40px;
+    clear: left;
+    font-family: sans-serif;
+    animation: blinkingText 3s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: black;    }
+    20%{    color: transparent;    }
+    40%{    color: black;    }
+    60%{    color: transparent; }
+    100%{   color: black;    }
+}
+
+.pressed {
+    width: 230px;
+    height: 170px;
+    margin-left: -30px;
+}
+
+.pressed_1 {
+    width: 230px;
+    padding-bottom: 30px;
+}
+
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+}
+
+#tostart{
+    margin-left: 37%;
+    letter-spacing: 2px;
+}
+
+#game_over1{
+    position: relative;
+    margin-left: 37%;
+    top: 30px;
+    clear: left;
+    font-family: sans-serif;
+    margin-left: 45%;
+    letter-spacing: 2px;
+    color: red;
+}
+
+#game_over2{
+    position: relative;
+    margin-left: 37%;
+    top: 20px;
+    clear: left;
+    font-family: sans-serif;
+    margin-left: 43%;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.container{
+    height: 549px;
+}
